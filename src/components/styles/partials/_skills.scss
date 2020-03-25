@@ -1,0 +1,87 @@
+.skills {
+  background: $primary;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .skill-container {
+    width: 50%;
+    padding: 1rem 8rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include mq(1280) {
+      padding: 1rem 5rem;
+    }
+
+    @include mq(1024) {
+      width: 100%;
+    }
+
+    @include mq(768) {
+      padding: 3rem;
+    }
+
+    .skill-title {
+      width: 100%;
+
+      h2 {
+        font-size: 2.6em;
+        text-align: center;
+        margin-top: 0.8rem;
+
+        @include mq(1024) {
+          width: 100%;
+        }
+      }
+    }
+
+    .skill-logo {
+      margin: 1rem;
+      height: 3rem;
+      filter: brightness(100%) drop-shadow(4px 4px 3px #444);
+
+      @include mq(1280) {
+        height: 2rem;
+      }
+
+      @include mq(768) {
+        height: 3rem;
+      }
+    }
+
+    .skill-transition {
+      transition: all 0.5s ease;
+
+      &:hover {
+        filter: brightness(105%) drop-shadow(6px 6px 6px #1d2021);
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .skill-img {
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+    background-image: url("../../images/notebook.png");
+    background-position: center;
+    background-size: cover;
+
+    @include mq(1280) {
+      height: 400px;
+    }
+
+    @include mq(1024) {
+      display: none;
+    }
+
+    img {
+      margin-top: 40px;
+      margin-bottom: 0;
+    }
+  }
+}

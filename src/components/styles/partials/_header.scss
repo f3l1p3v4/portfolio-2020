@@ -1,0 +1,71 @@
+.headroom-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: 800;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .spacer {
+      flex: 1;
+    }
+
+    .navbar-menu {
+      display: flex;
+      align-items: center;
+      list-style: none;
+
+      @include mq(768) {
+        display: none;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li {
+          display: flex;
+          align-items: center;
+          height: 60px;
+          padding: 0 0.9rem;
+          margin: 0;
+
+          a {
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            color: $text;
+            transition: 0.5s;
+
+            &:before {
+              content: "";
+              position: absolute;
+              top: 2rem;
+              display: block;
+              width: 0%;
+              border-top: 3px solid $highlight;
+              transition: 0.5s;
+            }
+            &:hover:before {
+              width: 2%;
+            }
+            &:hover {
+              color: $highlight;
+            }
+
+            &:active {
+              color: $highlight;
+            }
+          }
+        }
+      }
+    }
+  }
+}

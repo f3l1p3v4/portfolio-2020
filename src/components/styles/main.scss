@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter|Roboto+Slab|Open+Sans:400,800");
+
+@import "partials/_media_queries";
+@import "partials/_layout";
+@import "partials/_vars";
+@import "partials/_header";
+@import "partials/_headroom";
+@import "partials/_perfil";
+@import "partials/_about";
+@import "partials/_skills";
+@import "partials/_work";
+@import "partials/project-page";
+@import "partials/_contact";
+@import "partials/_footer";
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background: $primary;
+    color: #FFF;
+
+    h1 {
+        font-family: "Open Sans", sans-serif;
+        color: $accent;
+    }
+
+    h2 {
+        font-family: "Roboto Slab", serif;
+        color: $text;
+      }
+}

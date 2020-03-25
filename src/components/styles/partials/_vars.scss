@@ -1,0 +1,15 @@
+// Variables
+$primary: #11141E;
+$accent: #6854EA;
+$highlight: #6854EA;
+$text: #FFF;
+
+// Mixins
+@mixin container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@mixin headroom-trans {
+  transition: all 0.6s ease;
+}

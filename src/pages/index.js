@@ -1,21 +1,62 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { Component } from "react"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Perfil from "../components/perfil"
+import About from "../components/about"
+import Skills from "../components/skills"
+import Work from "../components/work"
+import Contact from "../components/contact"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+import "../components/styles/main.scss"
 
-export default IndexPage
+class IndexPage extends Component {
+  render() {
+    const { data } = this.props
+
+    return (
+      <Layout>
+        <SEO
+          title="Home"
+          keywords={[
+            `web site`,
+            `desenvolvedor mobile`,
+            `desenvolvedor front-end`,
+            `desenvolvedor back-end`,
+            `site responsivo`,
+          ]}
+        />
+        <Perfil />
+        <About />
+        <Skills />
+        <Work projects={data.allProjectsJson.edges} />
+        <Contact />
+      </Layout>
+    )
+  }
+}
+
+export const query = graphql`
+  query {
+    allProjectsJson {
+      edges {
+        node {
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          title
+          page
+          link
+          github
+        }
+      }
+    }
+  }
+`
+
+export default IndexPage;

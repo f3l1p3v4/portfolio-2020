@@ -1,0 +1,171 @@
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+  
+    .projects-nav {
+      display: flex;
+      flex-direction: row;
+  
+      .spacer {
+        flex: 1;
+      }
+  
+      .right a {
+        text-align: right;
+  
+        @include mq(480) {
+          display: none;
+        }
+      }
+  
+      .projects-nav-link {
+        margin-bottom: 20px;
+  
+        a {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          cursor: pointer;
+          color: $text;
+          transition: 0.5s;
+  
+          &:hover {
+            color: $highlight;
+          }
+  
+          svg {
+            height: 2em;
+            width: 2em;
+            margin: 6px;
+          }
+        }
+      }
+    }
+  }
+  
+  #portfolio-projects {
+    padding: 100px 15px 50px;
+  
+    @include mq(480) {
+      padding-top: 100px;
+    }
+  }
+  #portfolio-projects .project-image {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #portfolio-projects .project-image img {
+    // width: 100%;
+    height: 450px !important;
+    background-size: cover !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    /* background-attachment: fixed !important; */
+  }
+  #portfolio-projects h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    // font-style: italic;
+    margin-bottom: 1.5rem;
+  }
+  #portfolio-projects .info .buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  #portfolio-projects .info .buttons a {
+    display: inline-flex;
+    justify-content: center;
+    width: 175px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 3px;
+    color: $text;
+    background: $accent;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+  }
+  #portfolio-projects .info .buttons svg {
+    height: 1.2em;
+    width: 1.2em;
+    align-self: center;
+    // color: $highlight;
+    margin-right: 10px;
+  }
+  #portfolio-projects .info .buttons a:hover {
+    background: #7167b5;
+  }
+  #portfolio-projects .info .buttons a:hover .fas {
+    color: $accent;
+  }
+  #portfolio-projects p {
+    display: inline-block;
+    border-radius: 3px;
+    color: $text;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    text-decoration: none;
+    margin-bottom: 1.8rem;
+    // text-transform: capitalize;
+  }
+  
+  #portfolio-projects .technologies {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px 0;
+  
+    @include mq(768) {
+      width: 100%;
+    }
+  }
+  #portfolio-projects h3 {
+    font-family: "Roboto Slab", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 3rem auto;
+    text-transform: uppercase;
+  }
+  #portfolio-projects .technologies .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  #portfolio-projects .technologies .icons .icon svg {
+    height: 4em;
+    width: 4em;
+    max-width: 200px;
+  }
+  
+  @media only screen and (max-width: 960px) {
+    #portfolio-projects h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+    #portfolio-projects p {
+      font-size: 1rem;
+    }
+    #portfolio-projects h3 {
+      text-align: center;
+    }
+  }
+  /* Phones */
+  @media only screen and (max-width: 767px) {
+    #portfolio-projects .info .buttons {
+      text-align: center;
+    }
+    #portfolio-projects .info .buttons a {
+      margin-bottom: 10px;
+    }
+  }
+  
