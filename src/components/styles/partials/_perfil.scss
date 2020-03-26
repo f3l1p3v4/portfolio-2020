@@ -8,7 +8,7 @@
   background-color: $primary;
 
   @include mq(480) {
-    background-size: inherit;
+    background-size: unset;
   }
 
   .perfil-container {
