@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
 import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
@@ -47,7 +46,7 @@ const AirCnC = () => (
         <section id="portfolio-projects">
           <div className="container">
             <div className="project-image">
-              <Img
+              <img
                 fluid={
                   data.allProjectsJson.edges[0].node.image.childImageSharp.fluid
                 }
