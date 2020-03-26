@@ -1,6 +1,6 @@
-import React from "react"
-import Img from "gatsby-image"
-import { Link } from "gatsby"
+import React from "react";
+import Img from "gatsby-image";
+import { Link } from "gatsby";
 
 const Project = ({ project }) => (
   <Link to={`${project.page}`}>

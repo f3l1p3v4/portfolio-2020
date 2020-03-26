@@ -37,6 +37,10 @@
     width: 75%;
     height: 100%;
 
+    @include mq(480) {
+      width: 95%;
+    }
+
     .projects {
       display: grid;
       grid-template-columns: repeat(3, 1fr);

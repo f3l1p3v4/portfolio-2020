@@ -22,7 +22,7 @@
     }
 
     @include mq(768) {
-      padding: 3rem;
+      padding: 1rem;
     }
 
     .skill-title {
@@ -49,7 +49,7 @@
       }
 
       @include mq(768) {
-        height: 3rem;
+        height: 2.8rem;
       }
     }
 
