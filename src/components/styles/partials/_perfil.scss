@@ -7,6 +7,10 @@
   background-size: cover;
   background-color: $primary;
 
+  @include mq(480) {
+    background-size: contain;
+  }
+
   .perfil-container {
     width: 100%;
     display: flex;
