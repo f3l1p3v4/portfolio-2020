@@ -58,7 +58,7 @@
   #portfolio-projects .project-image img {
     // width: 100%;
     height: 450px !important;
-    background-size: cover !important;
+    background-size: contain !important;
     background-position: top center !important;
     background-repeat: no-repeat !important;
     /* background-attachment: fixed !important; */
