@@ -8,7 +8,7 @@
   background-color: $primary;
 
   @include mq(480) {
-    background-size: contain;
+    background-size: initial;
   }
 
   .perfil-container {
