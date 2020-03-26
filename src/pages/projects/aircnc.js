@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
+import AirCnC from '../../images/projects/aircnc.png';
 import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
@@ -47,9 +48,7 @@ const AirCnC = () => (
           <div className="container">
             <div className="project-image">
               <img
-                source={
-                  data.allProjectsJson.edges[0].node.image.childImageSharp.fluid
-                }
+                source={AirCnC}
               />
             </div>
             <div className="projects-nav">
