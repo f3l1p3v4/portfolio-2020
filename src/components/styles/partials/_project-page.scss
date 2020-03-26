@@ -64,6 +64,7 @@
     /* background-attachment: fixed !important; */
 
     @include mq(480) {
+      background-size: auto !important;
       height: 200px !important;
     }
   }
