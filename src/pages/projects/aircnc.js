@@ -47,7 +47,7 @@ const AirCnC = () => (
           <div className="container">
             <div className="project-image">
               <img
-                fluid={
+                source={
                   data.allProjectsJson.edges[0].node.image.childImageSharp.fluid
                 }
               />
