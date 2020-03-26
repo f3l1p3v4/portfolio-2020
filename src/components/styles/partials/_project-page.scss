@@ -58,10 +58,14 @@
   #portfolio-projects .project-image img {
     // width: 100%;
     height: 450px !important;
-    background-size: contain !important;
+    background-size: cover !important;
     background-position: top center !important;
     background-repeat: no-repeat !important;
     /* background-attachment: fixed !important; */
+
+    @include mq(480) {
+      height: 200px !important;
+    }
   }
   #portfolio-projects h1 {
     text-align: center;
