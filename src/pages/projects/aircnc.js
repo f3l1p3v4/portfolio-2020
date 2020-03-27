@@ -1,6 +1,6 @@
 import React from "react";
 import Img from "gatsby-image";
-import { Link, StaticQuery, graphql } from "gatsby";;
+import { Link, StaticQuery, graphql } from "gatsby";
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons/io";
 import { DiReact, DiNodejsSmall } from "react-icons/di";
 import { MdPhoneAndroid } from "react-icons/md";
