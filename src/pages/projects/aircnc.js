@@ -18,9 +18,11 @@ const AirCnC = () => (
             node {
               id
               image {
-                  fluid(maxWidth: 400) {
-                    ...GatsbySanityImageFluid
+                childImageSharp {
+                  fluid(maxWidth: 750) {
+                    ...GatsbyImageSharpFluid
                   }
+                }
               }
               title
               description
@@ -39,7 +41,7 @@ const AirCnC = () => (
             <div className="project-image">
             <Img
                 fluid={
-                  data.allProjectsJson.edges[0].node.image.fluid
+                  data.allProjectsJson.edges[0].node.childImageSharp.image.fluid
                 }
                 style={{ height: 450 }}
               />
