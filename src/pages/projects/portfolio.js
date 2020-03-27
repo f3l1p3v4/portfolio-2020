@@ -21,7 +21,7 @@ const Portfolio = () => (
               id
               image {
                 childImageSharp {
-                  fluid(maxWidth: 1150, quality: 75) {
+                  fluid(maxWidth: 1150) {
                     ...GatsbyImageSharpFluid
                   }
                 }

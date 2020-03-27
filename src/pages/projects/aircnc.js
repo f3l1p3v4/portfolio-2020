@@ -19,7 +19,7 @@ const AirCnC = () => (
               id
               image {
                 childImageSharp {
-                  fluid(maxWidth: 750) {
+                  fluid(maxWidth: 1150) {
                     ...GatsbyImageSharpFluid
                   }
                 }
