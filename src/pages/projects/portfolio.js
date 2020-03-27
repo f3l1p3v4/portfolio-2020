@@ -45,7 +45,7 @@ const Portfolio = () => (
                                 fluid={
                                     data.allProjectsJson.edges[2].node.image.childImageSharp.fluid
                                 }
-                                style={{ height: 450 }}
+                                style={{ maxHeight: 450 }}
                             />
                         </div>
                         <div className="projects-nav">
