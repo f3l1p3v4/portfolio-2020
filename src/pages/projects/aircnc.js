@@ -39,7 +39,7 @@ const AirCnC = () => (
             <div className="project-image">
             <Img
                 fluid={
-                  data.allProjectsJson.edges[0].node.image.childImageSharp.fluid
+                  data.allProjectsJson.edges[0].node.image.fluid
                 }
                 style={{ height: 450 }}
               />
