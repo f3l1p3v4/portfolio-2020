@@ -43,7 +43,7 @@ const AirCnC = () => (
                 fluid={
                   data.allProjectsJson.edges[0].node.image.childImageSharp.fluid
                 }
-                // style={{ height: 450 }}
+                style={{ maxHeight: 450 }}
               />
             </div>
             <div className="projects-nav">
