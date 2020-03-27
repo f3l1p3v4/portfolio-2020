@@ -19,7 +19,7 @@ const AirCnC = () => (
               id
               image {
                 childImageSharp {
-                  fluid(maxWidth: 750) {
+                  fixed(maxWidth: 400) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -40,7 +40,7 @@ const AirCnC = () => (
           <div className="container">
             <div className="project-image">
             <Img
-                fluid={
+                fixed={
                   data.allProjectsJson.edges[0].node.image.childImageSharp.fluid
                 }
                 style={{ height: 450 }}
