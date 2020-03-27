@@ -19,6 +19,7 @@ const AirCnC = () => (
               id
               image {
                   fluid(maxWidth: 400) {
+                    ...GatsbySanityImageFluid
                   }
               }
               title
