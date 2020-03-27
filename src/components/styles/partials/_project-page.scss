@@ -53,11 +53,7 @@
   }
   #portfolio-projects .project-image {
     width: 100%;
-    margin-bottom: 40%;
-
-    @include mq(480) {
-      padding-bottom: 60%;
-    }
+    margin-bottom: 1fr;
   }
   #portfolio-projects .project-image img {
     // width: 100%;
