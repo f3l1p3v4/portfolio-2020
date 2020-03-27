@@ -1,21 +1,13 @@
-import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
-import AirCnC from '../../images/projects/aircnc.png';
-import {
-  IoIosArrowDropleftCircle,
-  IoIosArrowDroprightCircle,
-} from "react-icons/io"
-import {
-  DiReact,
-  DiNodejsSmall
-} from "react-icons/di"
-import {
-  MdPhoneAndroid
-} from "react-icons/md"
-import { FaDesktop, FaCode } from "react-icons/fa"
+import React from "react";
+import Img from "gatsby-image";
+import { Link, StaticQuery, graphql } from "gatsby";;
+import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons/io";
+import { DiReact, DiNodejsSmall } from "react-icons/di";
+import { MdPhoneAndroid } from "react-icons/md";
+import { FaDesktop, FaCode } from "react-icons/fa";
 
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Layout from "../../components/layout";
+import SEO from "../../components/seo";
 
 const AirCnC = () => (
   <StaticQuery
@@ -47,8 +39,11 @@ const AirCnC = () => (
         <section id="portfolio-projects">
           <div className="container">
             <div className="project-image">
-              <img
-                source={AirCnC}
+            <Img
+                fluid={
+                  data.allProjectsJson.edges[0].node.image.childImageSharp.fluid
+                }
+                // style={{ height: 450 }}
               />
             </div>
             <div className="projects-nav">
