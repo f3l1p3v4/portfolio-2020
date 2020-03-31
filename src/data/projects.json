@@ -5,8 +5,8 @@
       "title": "AirCnC",
       "description": "O Aircnc é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer a empresa e trabalhar lá por um período. Projeto construido com as aulas da semana Omnistack da Rocktseat e criado com React no frontend, Node.js no backend e React Native no mobile.",
       "page": "projects/aircnc",
-      "github": "https://github.com/f3l1p3v4/semana-omnistack-9",
-      "link": "https://frontaircnc.herokuapp.com/"
+      "github": "https://github.com/f3l1p3v4/aircnc-semana-09",
+      "link": "https://frontaircnc.netlify.com/"
     },
     {
       "id": "02",
@@ -14,8 +14,8 @@
       "title": "Dev Radar",
       "description": "O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias. Projeto construido com as aulas da semana Omnistack da Rocktseat e criado com React no frontend, Node.js no backend e React Native no mobile.",
       "page": "projects/devradar",
-      "github": "https://github.com/f3l1p3v4/semana-omnistack-10",
-      "link": "https://frontdevradar.herokuapp.com/"
+      "github": "https://github.com/f3l1p3v4/devradar-semana-10",
+      "link": "https://frontdevradar.netlify.com/"
     },
     {
       "id": "03",
@@ -23,7 +23,7 @@
       "title": "Portfólio de Desenvolvedor",
       "description": "Um site de portfólio para mostrar meus projetos de frontend, backend e mobile. Um dos meus objetivos ao criar meu portfólio, era aprimorar minhas habilidades com o React e outras tecnologias modernas de front-end. O site foi criado com Gatsby e Sass.",
       "page": "projects/portfolio",
-      "github": "https://github.com/f3l1p3v4/semana-omnistack-10",
-      "link": ""
+      "github": "https://github.com/f3l1p3v4/portfolio-2020",
+      "link": "https://felipevaldez.netlify.com/"
     }
 ]
