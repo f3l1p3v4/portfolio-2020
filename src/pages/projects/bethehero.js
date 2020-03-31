@@ -1,24 +1,15 @@
-import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import {
-  IoIosArrowDropleftCircle,
-  IoIosArrowDroprightCircle,
-} from "react-icons/io"
-import {
-  DiReact,
-  DiNodejsSmall
-} from "react-icons/di";
-import {
-  MdPhoneAndroid
-} from "react-icons/md";
-import { FaDesktop, FaCode } from "react-icons/fa"
+import React from "react";
+import Img from "gatsby-image";
+import { Link, StaticQuery, graphql } from "gatsby";
+import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons/io";
+import { DiReact, DiNodejsSmall } from "react-icons/di";
+import { MdPhoneAndroid } from "react-icons/md";
+import { FaDesktop, FaCode } from "react-icons/fa";
 
+import Layout from "../../components/layout";
+import SEO from "../../components/seo";
 
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
-
-const DevRadar = () => (
+const bethehero = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -44,42 +35,42 @@ const DevRadar = () => (
     `}
     render={data => (
       <Layout>
-        <SEO title="Project | DevRadar" />
+        <SEO title="Project | Be The Hero" />
         <section id="portfolio-projects">
           <div className="container">
             <div className="project-image">
-              <Img
+            <Img
                 fluid={
-                  data.allProjectsJson.edges[1].node.image.childImageSharp.fluid
+                  data.allProjectsJson.edges[2].node.image.childImageSharp.fluid
                 }
                 style={{ maxHeight: 450 }}
               />
             </div>
             <div className="projects-nav">
               <div className="projects-nav-link">
-                <Link to="/projects/aircnc">
-                  <IoIosArrowDropleftCircle /> Projeto Anterior
+                <Link to="/devradar">
+                  <IoIosArrowDropleftCircle /> Voltar ao Portfólio
                 </Link>
               </div>
               <div className="spacer" />
               <div className="projects-nav-link right">
-                <Link to="/projects/bethehero">
-                Próximo Projeto <IoIosArrowDroprightCircle />
+                <Link to="/projects/portfolio">
+                  Próximo Projeto <IoIosArrowDroprightCircle />
                 </Link>
               </div>
             </div>
-            <h1>DevRadar</h1>
+            <h1>Be The Hero</h1>
             <div className="info">
               <div className="buttons">
                 <a
-                  href={data.allProjectsJson.edges[1].node.link}
+                  href={data.allProjectsJson.edges[2].node.link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaDesktop /> Visitar Site
                 </a>
                 <a
-                  href={data.allProjectsJson.edges[1].node.github}
+                  href={data.allProjectsJson.edges[2].node.github}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -87,7 +78,7 @@ const DevRadar = () => (
                 </a>
               </div>
             </div>
-            <p>{data.allProjectsJson.edges[1].node.description}</p>
+            <p>{data.allProjectsJson.edges[2].node.description}</p>
 
             <div className="technologies">
               <h3>Construido com:</h3>
@@ -111,4 +102,4 @@ const DevRadar = () => (
   />
 )
 
-export default DevRadar
+export default bethehero

@@ -19,6 +19,15 @@
     },
     {
       "id": "03",
+      "image": "../images/projects/bethehero.png",
+      "title": "Be The Hero",
+      "description": "O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda. Projeto construido com as aulas da semana Omnistack da Rocktseat e criado com React no frontend, Node.js no backend e React Native no mobile.",
+      "page": "projects/portfolio",
+      "github": "https://github.com/f3l1p3v4/be-the-hero-semana-11",
+      "link": "https://frontbethehero.netlify.com/"
+    },
+    {
+      "id": "04",
       "image": "../images/projects/portfolio.png",
       "title": "Portfólio de Desenvolvedor",
       "description": "Um site de portfólio para mostrar meus projetos de frontend, backend e mobile. Um dos meus objetivos ao criar meu portfólio, era aprimorar minhas habilidades com o React e outras tecnologias modernas de front-end. O site foi criado com Gatsby e Sass.",
