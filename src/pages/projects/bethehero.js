@@ -48,7 +48,7 @@ const bethehero = () => (
             </div>
             <div className="projects-nav">
               <div className="projects-nav-link">
-                <Link to="/devradar">
+                <Link to="projects/devradar">
                   <IoIosArrowDropleftCircle /> Voltar ao Portfólio
                 </Link>
               </div>
