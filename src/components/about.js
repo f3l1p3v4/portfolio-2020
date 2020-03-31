@@ -1,11 +1,11 @@
 import React from 'react';
-import Dev from '../images/dev.svg';
+import Projects from '../images/projects.png';
 
 const About = () => (
     <section id="about">
         <div className="about-container">
             <div className="coder-img">
-                <img src={Dev} alt="Sean Fox - Web Developer"/>
+                <img src={Projects} alt="Sean Fox - Web Developer"/>
             </div>
             <div className="profile">
                 <h1>Olá,</h1>

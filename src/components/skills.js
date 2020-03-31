@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Dev from '../images/dev.png';
+
 import HTML5 from '../images/skills/html.png';
 import CSS3 from '../images/skills/css.png';
 import JavaScript from '../images/skills/javascript.png';
@@ -32,6 +34,7 @@ const Skills = () => {
             </div>
 
             <div className="skill-img">
+                <img src={Dev} alt=""/>
             </div>
         </section>
     )

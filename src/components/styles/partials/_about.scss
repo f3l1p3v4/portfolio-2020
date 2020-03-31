@@ -25,15 +25,7 @@
     width: 50%;
     padding: 30px;
 
-    @include mq(1024) {
-      display: none;
-    }
-
     @include mq(768) {
-      padding: 0 20px;
-    }
-
-    @include mq(480) {
       width: 100%;
     }
 

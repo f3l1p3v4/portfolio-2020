@@ -8,7 +8,7 @@
 
   .skill-container {
     width: 50%;
-    padding: 1rem 8rem;
+    padding: 1rem 4rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -41,7 +41,7 @@
 
     .skill-logo {
       margin: 1rem;
-      height: 3rem;
+      height: 2rem;
       filter: brightness(100%) drop-shadow(4px 4px 3px #444);
 
       @include mq(1280) {
@@ -65,18 +65,18 @@
 
   .skill-img {
     width: 50%;
-    height: 500px;
     padding: 30px;
-    background-image: url("../../images/estudante.png");
-    background-position: center;
-    background-size: cover;
-
-    @include mq(1280) {
-      height: 400px;
-    }
 
     @include mq(1024) {
       display: none;
+    }
+
+    @include mq(768) {
+      padding: 0 20px;
+    }
+
+    @include mq(480) {
+      width: 100%;
     }
 
     img {
