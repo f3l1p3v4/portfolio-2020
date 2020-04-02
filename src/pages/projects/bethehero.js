@@ -5,6 +5,7 @@ import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons
 import { DiReact, DiNodejsSmall } from "react-icons/di";
 import { MdPhoneAndroid } from "react-icons/md";
 import { FaDesktop, FaCode } from "react-icons/fa";
+import { FiDownloadCloud } from 'react-icons/fi';
 
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
@@ -28,6 +29,7 @@ const bethehero = () => (
               description
               link
               github
+              apk
             }
           }
         }
@@ -75,6 +77,13 @@ const bethehero = () => (
                   rel="noopener noreferrer"
                 >
                   <FaCode /> Ver Código
+                </a>
+                <a
+                  href={data.allProjectsJson.edges[0].node.apk}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiDownloadCloud /> Baixar APK
                 </a>
               </div>
             </div>
