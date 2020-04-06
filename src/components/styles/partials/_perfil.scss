@@ -8,7 +8,7 @@
   background-color: $primary;
 
   @include mq(480) {
-    background-size: auto;
+    background-image: url("../../images/texturePhone.png");
   }
 
   .perfil-container {
@@ -122,25 +122,25 @@
     }
 
     .perfil-avatar {
-      width: 18rem;
+      width: 20rem;
 
       @include mq(1140) {
-        width: 14rem;
+        width: 18rem;
       }
 
       @include mq(768) {
-        width: 14rem;
+        width: 18rem;
       }
 
       @include mq(480) {
-        width: 12rem;
+        width: 18rem;
         img {
           margin: 0;
         }
       }
 
       @media only screen and (max-width: 900px) and (orientation: landscape) {
-        width: 12rem;
+        width: 18rem;
 
         img {
           margin: 0;
