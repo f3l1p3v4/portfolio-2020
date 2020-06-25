@@ -2,7 +2,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  font-weight: 800;
+  font-weight: 700;
   position: fixed;
   z-index: 2000;
   top: 0;
@@ -33,7 +33,7 @@
         li {
           display: flex;
           align-items: center;
-          height: 60px;
+          // height: 60px;
           padding: 0 0.9rem;
           margin: 0;
 
@@ -47,7 +47,7 @@
             &:before {
               content: "";
               position: absolute;
-              top: 2rem;
+              top: 1rem;
               display: block;
               width: 0%;
               border-top: 3px solid $highlight;
