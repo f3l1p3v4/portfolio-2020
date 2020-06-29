@@ -8,14 +8,6 @@
   Gatsby's default starter
 </h1>
 
-<a href="https://rocketseat.com.br">
-  <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
-</a>
-
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
-
 ## 🚀 Quick start 😁
 
 1.  **Create a Gatsby site.**
@@ -49,7 +41,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
     .
-    ├── node_modules
+    ├──node_modules
     ├── src
     ├── .gitignore
     ├── .prettierrc
