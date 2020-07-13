@@ -50,6 +50,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Gatsby](https://www.gatsbyjs.org/)
 - [Sass](https://sass-lang.com/)
+- [Graphql](https://graphql.org/)
 
 ## 💻 Projeto
 
