@@ -22,25 +22,25 @@
 
     ```shell
     # Criando novo site com Gatsby usando o iniciador padrão.
-    gatsby new portfolio-2020 https://github.com/f3l1p3v4/portfolio-2020
+    gatsby new nome-do-projeto
     ```
 
-1.  **Start developing.**
+1.  **Comece a desenvolver.**
 
-    Navigate into your new site’s directory and start it up.
+    Navegue até o diretório do seu novo site e inicie-o.
 
     ```shell
-    cd my-default-starter/
+    cd nome-do-projeto/
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+1.  **Abra o código fonte e comece a editar!**
 
-    Your site is now running at `http://localhost:8000`!
+    Seu site agora está sendo executado em `http://localhost:8000`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+    _Note: Você também verá um segundo link: _`http://localhost:8000/___graphql`_. Esta é uma ferramenta que você pode usar para experimentar a consulta de seus dados. Saiba mais sobre como usar esta ferramenta no [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Abra o `nome-do-projeto` no diretório em seu editor de código de escolha e comece a aditar `src/pages/index.js`. Salve suas alterações e o navegador será atualizado em tempo real!
 
 <br>
 
