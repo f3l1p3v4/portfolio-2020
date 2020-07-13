@@ -48,13 +48,12 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [VueJS](https://vuejs.org/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Vuex](https://vuex.vuejs.org/)
+- [Gatsby](https://www.gatsbyjs.org/)
+- [Sass](https://sass-lang.com/)
 
 ## 💻 Projeto
 
-O projeto Hcode Futebol Clube foi criado com as aulas da Hcode Treinamentos e desenvolvido no curso de Vue.js - Curso Completo
+Um site de portfólio para mostrar meus projetos de frontend, backend e mobile. Um dos meus objetivos ao criar meu portfólio, era aprimorar minhas habilidades com o React e outras tecnologias modernas de front-end. O site foi criado com Gatsby e Sass.
 
 ## 🤔 Como executar
 
