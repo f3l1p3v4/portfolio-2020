@@ -8,15 +8,15 @@
   Gatsby's default starter
 </h1>
 
-## 🚀 Quick start 😁
+## 🚀 Quick start 
 
-1.  **Create a Gatsby site.**
+1.  **Criando site com Gatsby**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Use a CLI do Gatsby para criar um novo site, especificando o iniciador padrão.
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    # Criando novo site com Gatsby usando o iniciador padrão.
+    gatsby new portfolio-2020 https://github.com/f3l1p3v4/portfolio-2020
     ```
 
 1.  **Start developing.**
@@ -36,8 +36,6 @@
 
     Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 🧐 What's inside?
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -46,11 +44,7 @@
 
 <br>
 
-<p align="center">
-  <img alt="Project" src=".github/project.png" width="100%">
-</p>
-
-## 🚀 Tecnologias
+## 😁 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
