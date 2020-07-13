@@ -42,8 +42,6 @@
 
     Abra o `nome-do-projeto` no diretório em seu editor de código de escolha e comece a aditar `src/pages/index.js`. Salve suas alterações e o navegador será atualizado em tempo real!
 
-<br>
-
 ## 😁 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
