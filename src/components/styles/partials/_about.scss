@@ -1,6 +1,7 @@
 #about {
   .about-container {
     width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -24,13 +25,16 @@
   .coder-img {
     width: 50%;
     padding: 30px;
+    text-align: center;
 
     @include mq(768) {
       width: 100%;
+      padding: 10px;
     }
 
-    img {
-      margin-top: 40px;
+    .img {
+      font-size: 400px;
+      margin-top: 20px;
       margin-bottom: 0;
     }
   }
@@ -41,6 +45,7 @@
   .profile {
     width: 50%;
     text-align: left;
+    padding: 20px;
 
     @include mq(1024) {
       width: 80%;
@@ -48,19 +53,39 @@
     }
 
     @include mq(768) {
+      text-align: center;
       width: 100%;
+      padding: 10px;
     }
 
     h1 {
-      font-size: 3em;
+      font-size: 2.8em;
       line-height: 1.3em;
+
+      @include mq(768) {
+        font-size: 4em;
+      }
     }
 
     p {
-      font-size: 1.2em;
+      font-size: 1em;
       line-height: 1.3em;
       text-indent: 1.3em;
+      font-weight: 400;
+
+      @include mq(1024) {
+        font-size: 1.4em;
+      }
+
+      @include mq(768) {
+        font-size: 1.8em;
+      }
+
+      @include mq(480) {
+        font-size: 1.2em;
+      }
     }
+
     p a {
       text-decoration: none;
       color: $accent;

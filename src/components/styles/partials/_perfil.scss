@@ -9,6 +9,7 @@
 
   @include mq(480) {
     background-image: url("../../images/texturePhone.png");
+      height: auto;
   }
 
   .perfil-container {
@@ -123,6 +124,13 @@
 
     .perfil-avatar {
       width: 20rem;
+
+      img {
+        border-radius: 80%;
+        padding: 8px;
+        border: 10px solid #444;
+        box-shadow: 10px 5px 5px black;
+      }
 
       @include mq(1140) {
         width: 18rem;
