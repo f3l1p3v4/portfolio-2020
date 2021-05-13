@@ -32,7 +32,7 @@
   {
     "id": "04",
     "image": "../images/projects/portfolio.jpg",
-    "title": "Portfólio de Desenvolvedor",
+    "title": "Meu Portfólio",
     "description": "Um site de portfólio para mostrar meus projetos de frontend, backend e mobile. Um dos meus objetivos ao criar meu portfólio, era aprimorar minhas habilidades com o React e outras tecnologias modernas de front-end. O site foi criado com Gatsby e Sass.",
     "page": "projects/portfolio",
     "github": "https://github.com/f3l1p3v4/portfolio-2020",
