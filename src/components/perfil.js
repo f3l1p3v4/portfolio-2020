@@ -8,7 +8,7 @@ const Perfil = () => (
     <div className="perfil-container">
       <div className="perfil-text">
         <h1>Felipe Valdez</h1>
-        <h2>Developer</h2>
+        <p>Front-end Developer</p>
         <div className="perfil-social">
           <a
             href="https://www.linkedin.com/in/felipe-valdez-a0462a142/"

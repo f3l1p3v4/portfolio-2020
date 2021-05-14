@@ -11,10 +11,8 @@
     @include mq(1024) {
       flex-direction: column;
       justify-content: center;
-    }
-
-    @include mq(1280) {
       padding: 0 50px;
+      margin: 0 auto;
     }
 
     @include mq(768) {
@@ -27,6 +25,10 @@
     padding: 30px;
     text-align: center;
 
+    @include mq(1024) {
+      display: none;
+    }
+
     @include mq(768) {
       width: 100%;
       padding: 10px;
@@ -36,6 +38,11 @@
       font-size: 400px;
       margin-top: 20px;
       margin-bottom: 0;
+      
+        @include mq(1024) {
+          font-size: 300px;
+          margin-top: 0;
+        }
     }
   }
 
@@ -50,10 +57,11 @@
     @include mq(1024) {
       width: 80%;
       font-size: 0.8em;
+      padding: 0;
+      text-align: center;
     }
 
     @include mq(768) {
-      text-align: center;
       width: 100%;
       padding: 10px;
     }
