@@ -7,6 +7,15 @@
 
   h1 {
     font-size: 3.8em;
+
+    @include mq(480) {
+      font-size: 3em;
+    }
+
+    @include mq(320) {
+      font-size: 3em;
+      line-height: 75px;
+    }
   }
 
   p {
@@ -38,6 +47,10 @@
       @include mq(768) {
         padding: 1rem;
       }
+
+      @include mq(480) {
+        padding: 0;
+      }
     }
 
     .skills-logo {
@@ -52,6 +65,11 @@
 
       @include mq(768) {
         height: 2.8rem;
+      }
+
+      @include mq(480) {
+        width: 2.5rem;
+        height: 1.8rem;
       }
     }
 
