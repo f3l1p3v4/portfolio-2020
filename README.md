@@ -1,9 +1,4 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.felipevaldez.netlify.app">
-    <img alt="Avatar" src="./src/images/avatar.jpg" width="300" />
-  </a>
-</p>
 <h1 align="center">
   Meu site de Portfólio
 </h1>
