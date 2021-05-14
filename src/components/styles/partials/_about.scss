@@ -63,7 +63,7 @@
 
     @include mq(768) {
       width: 100%;
-      padding: 10px;
+      padding: 5px;
     }
 
     h1 {
@@ -80,6 +80,7 @@
       line-height: 1.3em;
       text-indent: 1.3em;
       font-weight: 400;
+      text-align: left;
 
       @include mq(1024) {
         font-size: 1.4em;
