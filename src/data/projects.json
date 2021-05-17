@@ -1,12 +1,11 @@
 [
   {
     "id": "01",
-    "image": "../images/projects/aircnc.png",
-    "title": "AirCnC",
-    "description": "O Aircnc é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer a empresa e trabalhar lá por um período. Projeto construido com as aulas da semana Omnistack da Rocktseat e criado com React no frontend, Node.js no backend e React Native no mobile.",
-    "page": "projects/aircnc",
-    "github": "https://github.com/f3l1p3v4/aircnc-semana-09",
-    "link": "https://frontaircnc.netlify.com/"
+    "image": "../images/projects/devload.jpg",
+    "title": "DevLoad",
+    "description": "A DevLoad é um site que visa proporcionar ensino e conteúdo para pessoas que são totalmente iniciantes e também para quem já é programador(a), para juntos mudarmos o mundo.",
+    "page": "projects/devload",
+    "link": "https://devload.com.br"
   },
   {
     "id": "02",
