@@ -11,11 +11,25 @@
 
   h1 {
     font-size: 3.8em;
+  
+      @include mq(480) {
+        font-size: 3em;
+      }
+  
+      @include mq(320) {
+        font-size: 3em;
+        line-height: 75px;
+      }
   }
 
   .lead {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-bottom: 50px;
+    padding: 10px;
+
+    @include mq(480) {
+      font-size: 1.1em;
+    }
 
     a {
       color: $highlight;
@@ -46,10 +60,14 @@
       grid-template-columns: repeat(3, 1fr);
       width: 100%;
       margin-bottom: 50px;
-
-      @include mq(1024) {
-        grid-template-columns: 1fr;
-      }
+      
+        @include mq(1024) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        
+        @include mq(480) {
+          grid-template-columns: 1fr;
+        }
     }
   }
 }

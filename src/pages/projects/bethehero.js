@@ -1,14 +1,17 @@
-import React from "react";
-import Img from "gatsby-image";
-import { Link, StaticQuery, graphql } from "gatsby";
-import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons/io";
-import { DiReact, DiNodejsSmall } from "react-icons/di";
-import { MdPhoneAndroid } from "react-icons/md";
-import { FaDesktop, FaCode } from "react-icons/fa";
-import { FiDownloadCloud } from 'react-icons/fi';
+import React from "react"
+import Img from "gatsby-image"
+import { Link, StaticQuery, graphql } from "gatsby"
+import {
+  IoIosArrowDropleftCircle,
+  IoIosArrowDroprightCircle,
+} from "react-icons/io"
+import { DiReact, DiNodejsSmall } from "react-icons/di"
+import { MdPhoneAndroid } from "react-icons/md"
+import { FaDesktop, FaCode } from "react-icons/fa"
+import { FiDownloadCloud } from "react-icons/fi"
 
-import Layout from "../../components/layout";
-import SEO from "../../components/seo";
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
 
 const bethehero = () => (
   <StaticQuery
@@ -29,19 +32,18 @@ const bethehero = () => (
               description
               link
               github
-              apk
             }
           }
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <Layout>
         <SEO title="Project | Be The Hero" />
         <section id="portfolio-projects">
           <div className="container">
             <div className="project-image">
-            <Img
+              <Img
                 fluid={
                   data.allProjectsJson.edges[2].node.image.childImageSharp.fluid
                 }
@@ -77,13 +79,6 @@ const bethehero = () => (
                   rel="noopener noreferrer"
                 >
                   <FaCode /> Ver Código
-                </a>
-                <a
-                  href={data.allProjectsJson.edges[0].node.apk}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FiDownloadCloud /> Baixar APK
                 </a>
               </div>
             </div>

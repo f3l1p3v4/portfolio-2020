@@ -130,23 +130,13 @@
 
       @include mq(1140) {
         width: 16rem;
-      }
-
-      @include mq(768) {
-        width: 18rem;
+        margin-left: 20px;
       }
 
       @include mq(480) {
         margin-top: 60px;
         width: 14rem;
-      }
-
-      @media only screen and (max-width: 900px) and (orientation: landscape) {
-        width: 18rem;
-
-        img {
-          margin: 0;
-        }
+        margin-left: 20px;
       }
     }
   }
