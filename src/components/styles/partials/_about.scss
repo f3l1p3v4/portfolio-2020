@@ -77,22 +77,15 @@
 
     p {
       font-size: 1em;
-      line-height: 1.3em;
+      line-height: 1.4em;
       text-indent: 1.3em;
       font-weight: 400;
       text-align: left;
 
-      @include mq(1024) {
-        font-size: 1.4em;
-      }
-
       @include mq(768) {
-        font-size: 1.8em;
+        font-size: 1.3em;
       }
 
-      @include mq(480) {
-        font-size: 1.2em;
-      }
     }
 
     p a {
