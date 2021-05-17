@@ -8,7 +8,6 @@ import {
 import { DiReact, DiNodejsSmall } from "react-icons/di"
 import { MdPhoneAndroid } from "react-icons/md"
 import { FaDesktop, FaCode } from "react-icons/fa"
-import { FiDownloadCloud } from "react-icons/fi"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
