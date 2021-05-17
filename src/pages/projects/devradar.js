@@ -51,7 +51,7 @@ const DevRadar = () => (
             </div>
             <div className="projects-nav">
               <div className="projects-nav-link">
-                <Link to="/projects/aircnc">
+                <Link to="/projects/devload">
                   <IoIosArrowDropleftCircle /> Projeto Anterior
                 </Link>
               </div>

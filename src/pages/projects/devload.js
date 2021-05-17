@@ -7,7 +7,7 @@ import {
 } from "react-icons/io"
 import { DiReact, DiNodejsSmall } from "react-icons/di"
 import { MdPhoneAndroid } from "react-icons/md"
-import { FaDesktop, FaCode } from "react-icons/fa"
+import { FaDesktop } from "react-icons/fa"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -30,7 +30,6 @@ const AirCnC = () => (
               title
               description
               link
-              github
             }
           }
         }
@@ -38,7 +37,7 @@ const AirCnC = () => (
     `}
     render={(data) => (
       <Layout>
-        <SEO title="Project | AirCnC" />
+        <SEO title="Project | DevLoad" />
         <section id="portfolio-projects">
           <div className="container">
             <div className="project-image">
@@ -62,7 +61,7 @@ const AirCnC = () => (
                 </Link>
               </div>
             </div>
-            <h1>AirCnC</h1>
+            <h1>DevLoad</h1>
             <div className="info">
               <div className="buttons">
                 <a
@@ -71,13 +70,6 @@ const AirCnC = () => (
                   rel="noopener noreferrer"
                 >
                   <FaDesktop /> Visitar Site
-                </a>
-                <a
-                  href={data.allProjectsJson.edges[0].node.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaCode /> Ver Código
                 </a>
               </div>
             </div>
