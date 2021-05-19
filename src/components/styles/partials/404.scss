@@ -2,9 +2,14 @@
   width: 100%;
   max-width: 1200px;
   margin: 50px auto;
-  flex-direction: row;
+  height: 100vh;
+  flex-direction: flex;
   justify-content: center;
   align-items: center;
+
+  @include mq(768) {
+    padding: 15px;
+  }
 
   .error-content {
     flex-direction: row;

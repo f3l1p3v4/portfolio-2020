@@ -10,7 +10,7 @@ const Error = () => (
       <p className="error-description">Sorry, the page you are looking for </p>
       <p className="error-description">could not be found :(</p>
       <p className="error-link">
-        <Link to="https://felipevaldez.netlify">go to the front page →</Link>
+        <Link to="/">go to the front page →</Link>
       </p>
     </div>
   </section>
