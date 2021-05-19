@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "../components/styles/main.scss"
+
 const Error = () => (
   <section className="error-content">
     <h1 className="error-code">error_404</h1>
