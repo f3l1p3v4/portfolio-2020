@@ -1,12 +1,9 @@
 .error-content {
   width: 100%;
   max-width: 1200px;
-  text-align: center;
+  margin: 50px auto;
 
   .error-content {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
