@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.felipevaldez.netlify.app">
-    <img alt="Avatar" src="https://felipevaldez.netlify.app/static/avatar-aa9122316a80b7be50bf3e382cf3d10e.jpg" width="300" border-radius: "80%" />
+    <img alt="Avatar" src="https://felipevaldez.netlify.app/static/avatar-aa9122316a80b7be50bf3e382cf3d10e.jpg" width="300" border-radius="80%" />
   </a>
 </p>
 <h1 align="center">
