@@ -9,12 +9,11 @@
   },
   {
     "id": "02",
-    "image": "../images/projects/devradar.png",
-    "title": "Dev Radar",
-    "description": "O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias. Projeto construido com as aulas da semana Omnistack da Rocktseat e criado com React no frontend, Node.js no backend e React Native no mobile.",
-    "page": "projects/devradar",
-    "github": "https://github.com/f3l1p3v4/devradar-semana-10",
-    "link": "https://frontdevradar.netlify.com/"
+    "image": "../images/projects/barber.jpg",
+    "title": "Barbearia Morumbi",
+    "description": "Site para facilitar o agendamento de horário para os clientes e também mostrar tudo o que a Barbearia Morumbi oferece.",
+    "page": "projects/barber",
+    "link": "https://barbeariamorumbi.netlify.com/"
   },
   {
     "id": "03",
