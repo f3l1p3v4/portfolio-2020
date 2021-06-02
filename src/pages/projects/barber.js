@@ -30,7 +30,6 @@ const DevRadar = () => (
               title
               description
               link
-              github
             }
           }
         }
@@ -62,7 +61,7 @@ const DevRadar = () => (
                 </Link>
               </div>
             </div>
-            <h1>DevRadar</h1>
+            <h1>Barbearia Morumbi</h1>
             <div className="info">
               <div className="buttons">
                 <a
@@ -71,13 +70,6 @@ const DevRadar = () => (
                   rel="noopener noreferrer"
                 >
                   <FaDesktop /> Visitar Site
-                </a>
-                <a
-                  href={data.allProjectsJson.edges[1].node.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaCode /> Ver Código
                 </a>
               </div>
             </div>
@@ -89,12 +81,6 @@ const DevRadar = () => (
               <div className="icons">
                 <div className="icon">
                   <DiReact />
-                </div>
-                <div className="icon">
-                  <DiNodejsSmall />
-                </div>
-                <div className="icon">
-                  <MdPhoneAndroid />
                 </div>
               </div>
             </div>

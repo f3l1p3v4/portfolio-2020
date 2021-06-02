@@ -56,7 +56,7 @@ const AirCnC = () => (
               </div>
               <div className="spacer" />
               <div className="projects-nav-link right">
-                <Link to="/projects/devradar">
+                <Link to="/projects/barber">
                   Próximo Projeto <IoIosArrowDroprightCircle />
                 </Link>
               </div>
@@ -81,12 +81,6 @@ const AirCnC = () => (
               <div className="icons">
                 <div className="icon">
                   <DiReact />
-                </div>
-                <div className="icon">
-                  <DiNodejsSmall />
-                </div>
-                <div className="icon">
-                  <MdPhoneAndroid />
                 </div>
               </div>
             </div>
