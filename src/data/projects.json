@@ -17,7 +17,7 @@
   },
   {
     "id": "03",
-    "image": "../images/projects/bethehero.png",
+    "image": "../images/projects/bethehero.jpg",
     "title": "Be The Hero",
     "description": "O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda. Projeto construido com as aulas da semana Omnistack da Rocktseat e criado com React no frontend, Node.js no backend e React Native no mobile.",
     "page": "projects/bethehero",
