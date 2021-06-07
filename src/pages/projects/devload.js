@@ -50,7 +50,7 @@ const AirCnC = () => (
             </div>
             <div className="projects-nav">
               <div className="projects-nav-link">
-                <Link to="/#work">
+                <Link to="/#projects">
                   <IoIosArrowDropleftCircle /> Voltar ao Portfólio
                 </Link>
               </div>

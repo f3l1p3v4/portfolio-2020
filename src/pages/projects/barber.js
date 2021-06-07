@@ -5,9 +5,8 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io"
-import { DiReact, DiNodejsSmall } from "react-icons/di"
-import { MdPhoneAndroid } from "react-icons/md"
-import { FaDesktop, FaCode } from "react-icons/fa"
+import { DiReact } from "react-icons/di"
+import { FaDesktop } from "react-icons/fa"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
