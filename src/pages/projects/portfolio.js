@@ -5,7 +5,7 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io"
-import { DiHtml5, DiSass, DiReact, DiResponsive } from "react-icons/di"
+import { DiHtml5, DiSass, DiReact } from "react-icons/di"
 import { FaDesktop, FaCode } from "react-icons/fa"
 
 import Layout from "../../components/layout"
@@ -90,9 +90,6 @@ const Portfolio = () => (
                 </div>
                 <div className="icon">
                   <DiReact />
-                </div>
-                <div className="icon">
-                  <DiResponsive />
                 </div>
               </div>
             </div>
