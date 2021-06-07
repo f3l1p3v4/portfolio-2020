@@ -49,7 +49,7 @@ const Bilhetagem = () => (
             </div>
             <div className="projects-nav">
               <div className="projects-nav-link">
-                <Link to="/projects/bilhetagem">
+                <Link to="/projects/portfolio">
                   <IoIosArrowDropleftCircle /> Projeto anterior
                 </Link>
               </div>
