@@ -5,8 +5,7 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io"
-import { DiReact, DiNodejsSmall } from "react-icons/di"
-import { MdPhoneAndroid } from "react-icons/md"
+import { DiReact, DiNodejsSmall, DiResponsive } from "react-icons/di"
 import { FaDesktop } from "react-icons/fa"
 
 import Layout from "../../components/layout"
@@ -81,6 +80,12 @@ const AirCnC = () => (
               <div className="icons">
                 <div className="icon">
                   <DiReact />
+                </div>
+                <div className="icon">
+                  <DiNodejsSmall />
+                </div>
+                <div className="icon">
+                  <DiResponsive />
                 </div>
               </div>
             </div>

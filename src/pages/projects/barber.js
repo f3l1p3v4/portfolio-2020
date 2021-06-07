@@ -5,8 +5,8 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io"
-import { DiReact } from "react-icons/di"
-import { FaDesktop } from "react-icons/fa"
+import { DiReact, DiResponsive } from "react-icons/di"
+import { FaDesktop, FaCss3Alt } from "react-icons/fa"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -80,6 +80,12 @@ const DevRadar = () => (
               <div className="icons">
                 <div className="icon">
                   <DiReact />
+                </div>
+                <div className="icon">
+                  <FaCss3Alt />
+                </div>
+                <div className="icon">
+                  <DiResponsive />
                 </div>
               </div>
             </div>

@@ -5,8 +5,7 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io"
-import { DiReact } from "react-icons/di"
-import { FaDesktop } from "react-icons/fa"
+import { FaDesktop, FaVuejs, FaCss3Alt, FaNodeJs } from "react-icons/fa"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -79,7 +78,13 @@ const Bilhetagem = () => (
 
               <div className="icons">
                 <div className="icon">
-                  <DiReact />
+                  <FaVuejs />
+                </div>
+                <div className="icon">
+                  <FaCss3Alt />
+                </div>
+                <div className="icon">
+                  <FaNodeJs />
                 </div>
               </div>
             </div>
