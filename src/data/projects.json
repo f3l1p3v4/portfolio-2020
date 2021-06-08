@@ -17,15 +17,6 @@
   },
   {
     "id": "03",
-    "image": "../images/projects/bethehero.jpg",
-    "title": "Be The Hero",
-    "description": "O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda. Projeto construido com as aulas da semana Omnistack da Rocktseat e criado com React no frontend, Node.js no backend e React Native no mobile.",
-    "page": "projects/bethehero",
-    "github": "https://github.com/f3l1p3v4/be-the-hero-semana-11",
-    "link": "https://frontbethehero.netlify.com/"
-  },
-  {
-    "id": "04",
     "image": "../images/projects/portfolio.jpg",
     "title": "Meu Portfólio",
     "description": "Um site de portfólio para mostrar meus projetos de frontend, backend e mobile. Um dos meus objetivos ao criar meu portfólio, era aprimorar minhas habilidades com o React e outras tecnologias modernas de front-end. O site foi criado com Gatsby e Sass.",
@@ -34,7 +25,7 @@
     "link": "https://felipevaldez.netlify.com/"
   },
   {
-    "id": "05",
+    "id": "04",
     "image": "../images/projects/bilhetagem.jpg",
     "title": "Sistema de Oficina",
     "description": "Um sistema de gestão de serviços, ou seja todo serviço em algum carro que está em andamento o funcionário marca em azul, serviços em carros finalizados é marcado em verde.",
@@ -42,7 +33,7 @@
     "link": "https://bilhetagem.netlify.com/"
   },
   {
-    "id": "06",
+    "id": "05",
     "image": "../images/projects/lanchonete.jpg",
     "title": "Lanchonete",
     "description": "Um sistema de gestão de serviços, ou seja todo serviço em algum carro que está em andamento o funcionário marca em azul, serviços em carros finalizados é marcado em verde.",
