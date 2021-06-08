@@ -42,7 +42,7 @@ const Bilhetagem = () => (
             <div className="project-image">
               <Img
                 fluid={
-                  data.allProjectsJson.edges[4].node.image.childImageSharp.fluid
+                  data.allProjectsJson.edges[3].node.image.childImageSharp.fluid
                 }
                 style={{ maxHeight: 450 }}
               />
@@ -64,7 +64,7 @@ const Bilhetagem = () => (
             <div className="info">
               <div className="buttons">
                 <a
-                  href={data.allProjectsJson.edges[4].node.link}
+                  href={data.allProjectsJson.edges[3].node.link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -72,7 +72,7 @@ const Bilhetagem = () => (
                 </a>
               </div>
             </div>
-            <p>{data.allProjectsJson.edges[4].node.description}</p>
+            <p>{data.allProjectsJson.edges[3].node.description}</p>
 
             <div className="technologies">
               <h3>Construido com:</h3>

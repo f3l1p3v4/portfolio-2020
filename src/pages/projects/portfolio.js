@@ -43,14 +43,14 @@ const Portfolio = () => (
             <div className="project-image">
               <Img
                 fluid={
-                  data.allProjectsJson.edges[3].node.image.childImageSharp.fluid
+                  data.allProjectsJson.edges[2].node.image.childImageSharp.fluid
                 }
                 style={{ maxHeight: 450 }}
               />
             </div>
             <div className="projects-nav">
               <div className="projects-nav-link">
-                <Link to="/projects/bethehero">
+                <Link to="/projects/barber">
                   <IoIosArrowDropleftCircle /> Projeto Anterior
                 </Link>
               </div>
@@ -68,7 +68,7 @@ const Portfolio = () => (
                   <FaDesktop /> Visitar Site
                 </a>
                 <a
-                  href={data.allProjectsJson.edges[3].node.github}
+                  href={data.allProjectsJson.edges[2].node.github}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -76,7 +76,7 @@ const Portfolio = () => (
                 </a>
               </div>
             </div>
-            <p>{data.allProjectsJson.edges[3].node.description}</p>
+            <p>{data.allProjectsJson.edges[2].node.description}</p>
 
             <div className="technologies">
               <h3>Construido com:</h3>
