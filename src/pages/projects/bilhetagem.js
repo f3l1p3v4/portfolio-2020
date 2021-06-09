@@ -55,8 +55,8 @@ const Bilhetagem = () => (
               </div>
               <div className="spacer" />
               <div className="projects-nav-link right">
-                <Link to="/projects/lanchonete">
-                  Próximo Projeto <IoIosArrowDroprightCircle />
+                <Link to="/#porjects">
+                  Voltar ao portfólio <IoIosArrowDroprightCircle />
                 </Link>
               </div>
             </div>
