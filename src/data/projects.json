@@ -32,12 +32,4 @@
     "page": "projects/bilhetagem",
     "link": "https://bilhetagem.netlify.com/"
   }
-  //{
-  // "id": "05",
-  // "image": "../images/projects/lanchonete.jpg",
-  //  "title": "Lanchonete",
-  //  "description": "Um sistema de gestão de serviços, ou seja todo serviço em algum carro que está em andamento o funcionário marca em azul, serviços em carros finalizados é marcado em verde.",
-  //  "page": "projects/lanchonete",
-  //  "link": "https://bilhetagem.netlify.com/"
-  //  }
 ]
