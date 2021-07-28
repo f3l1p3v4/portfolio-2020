@@ -5,8 +5,9 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io"
-import { SiVuetify } from "react-icons/si"
-import { FaDesktop, FaVuejs, FaNodeJs } from "react-icons/fa"
+import { FaDesktop, FaCss3Alt } from "react-icons/fa"
+import { DiReact } from "react-icons/di"
+import { SiNetlify } from "react-icons/si"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -60,7 +61,7 @@ const Bilhetagem = () => (
                 </Link>
               </div>
             </div>
-            <h1>Sistema de Bilhetagem</h1>
+            <h1>ReiTec Engenharia</h1>
             <div className="info">
               <div className="buttons">
                 <a
@@ -79,13 +80,13 @@ const Bilhetagem = () => (
 
               <div className="icons">
                 <div className="icon">
-                  <FaVuejs />
+                  <DiReact />
                 </div>
                 <div className="icon">
-                  <SiVuetify />
+                  <FaCss3Alt />
                 </div>
                 <div className="icon">
-                  <FaNodeJs />
+                  <SiNetlify />
                 </div>
               </div>
             </div>

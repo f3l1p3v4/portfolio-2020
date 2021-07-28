@@ -5,8 +5,9 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io"
-import { DiReact, DiNodejsSmall, DiResponsive } from "react-icons/di"
+import { DiReact, DiNodejsSmall } from "react-icons/di"
 import { FaDesktop } from "react-icons/fa"
+import { SiNetlify } from "react-icons/si"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -85,7 +86,7 @@ const AirCnC = () => (
                   <DiNodejsSmall />
                 </div>
                 <div className="icon">
-                  <DiResponsive />
+                  <SiNetlify />
                 </div>
               </div>
             </div>
