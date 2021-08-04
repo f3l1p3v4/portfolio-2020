@@ -61,7 +61,7 @@ const Bilhetagem = () => (
                 </Link>
               </div>
             </div>
-            <h1>ReiTec Engenharia</h1>
+            <h1>ReiTec Serviços</h1>
             <div className="info">
               <div className="buttons">
                 <a
