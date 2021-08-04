@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "image": "../images/projects/devload.jpg",
+    "image": "../images/projects/devload.png",
     "title": "DevLoad",
     "description": "A DevLoad é um site que visa proporcionar ensino e conteúdo para pessoas que são totalmente iniciantes e também para quem já é programador(a), para juntos mudarmos o mundo.",
     "page": "projects/devload",
@@ -34,7 +34,7 @@
   },
   {
     "id": "05",
-    "image": "../images/projects/engineering.jpg",
+    "image": "../images/projects/reitec.png",
     "title": "ReiTec Engenharia",
     "description": "Um site institucional da empresa Reitec para mostrar todos seus serviços de engenharia",
     "page": "projects/engineering",
