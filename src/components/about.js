@@ -21,8 +21,7 @@ const About = () => (
             Devload
           </a>
           , a idéia é ajudar pessoas que estão querendo começar na área de
-          desenvolvimento com conteúdos nas redes sociais e cursos que sou
-          afiliado. <a href="/#contact">Quer saber mais?</a>
+          desenvolvimento com conteúdos nas redes sociais, em blogs e cursos. <a href="/#contact">Quer saber mais?</a>
         </p>
       </div>
     </div>
