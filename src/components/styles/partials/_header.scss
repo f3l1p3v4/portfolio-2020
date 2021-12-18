@@ -45,6 +45,18 @@
             transition: .5s;
             font-size: 0.8rem;
           }
+          
+          .navbar-link {
+            text-decoration: none;
+            font-family: Montserrat;
+            font-size: 0.7rem;
+            font-weight: bold;
+            background: $highlight;
+            color: $text;
+            padding: 0.3rem;
+            border-radius: 4px;
+            transition: all 0.3s ease 0s;
+          }
 
             &:before {
               content: "";
