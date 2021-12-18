@@ -1,10 +1,12 @@
 footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: $primary;
-    padding: 30px 10px;
+    padding: 20px;
   
     .social-container {
       display: grid;
@@ -14,7 +16,9 @@ footer {
       max-width: 400px;
   
       a {
-        font-size: 2rem;
+        font-size: 1.4rem;
+        background: #161b22;
+        margin: 0px 2px;
         color: $text;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
@@ -28,7 +32,7 @@ footer {
   
     p {
       text-align: center;
-      margin: 0 auto;
       font-size: 0.8rem;
+      margin-bottom: 0;
   }
 }
