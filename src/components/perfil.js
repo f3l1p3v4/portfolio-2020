@@ -1,5 +1,6 @@
 import React from "react"
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa"
+import Avatar from "../images/avatar.png";
 
 const Perfil = () => (
   <section id="perfil">
@@ -32,7 +33,7 @@ const Perfil = () => (
         </div>
       </div>
       <div className="perfil-avatar">
-        <img src="https://avatars.githubusercontent.com/u/47610639?s=400&u=c090c9bf0cc27ea7c51190e77c7e94e5bb4515b6&v=4" alt="Felipe Valdez Avatar" />
+        <img src={Avatar} alt="Avatar" />
       </div>
     </div>
   </section>
