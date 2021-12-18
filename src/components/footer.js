@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa"
 
 const Footer = () => (
   <footer>
+    <p>© {new Date().getFullYear()}, Felipe Valdez - Published with Netlify.</p>
     <div className="social-container">
       <a
         href="https://www.linkedin.com/in/felipe-valdez-a0462a142/"
@@ -26,7 +27,6 @@ const Footer = () => (
         <FaInstagram />
       </a>
     </div>
-    <p>© {new Date().getFullYear()}, Felipe Valdez - Published with Netlify.</p>
   </footer>
 )
 
