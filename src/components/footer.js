@@ -2,8 +2,6 @@ import React from "react"
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa"
 
 const Footer = () => (
- <div>
-  <hr>
   <footer>
     <p>© {new Date().getFullYear()}, Felipe Valdez - Published with Netlify.</p>
     <div className="social-container">
@@ -30,7 +28,6 @@ const Footer = () => (
       </a>
     </div>
   </footer>
-</div>
 )
 
 export default Footer
