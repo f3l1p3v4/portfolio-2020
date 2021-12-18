@@ -6,8 +6,8 @@ const Perfil = () => (
   <section id="perfil">
     <div className="perfil-container">
       <div className="perfil-text">
-        <h1>Felipe Valdez</h1>
-        <p>Front-end Developer</p>
+        <h1>Soluções Web</h1>
+        <p>Ideias ganhando vida!</p>
         <div className="perfil-social">
           <a
             href="https://www.linkedin.com/in/felipe-valdez-a0462a142/"
