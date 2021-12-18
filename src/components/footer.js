@@ -2,7 +2,7 @@ import React from "react"
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa"
 
 const Footer = () => (
- <>
+ <div>
   <hr>
   <footer>
     <p>© {new Date().getFullYear()}, Felipe Valdez - Published with Netlify.</p>
@@ -30,7 +30,7 @@ const Footer = () => (
       </a>
     </div>
   </footer>
-</>
+</div>
 )
 
 export default Footer
