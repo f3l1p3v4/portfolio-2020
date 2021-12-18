@@ -1,9 +1,9 @@
 .headroom {
     width: 100%;
-    padding: 1.3rem 3rem;
+    padding: 0.8rem 1rem;
   
     @include mq(480) {
-      padding: 1.8rem 2rem 1.3rem 2rem;
+      padding: 1rem 2rem;
     }
   }
   
@@ -25,7 +25,7 @@
     transform: translateY(0);
     @include headroom-trans;
     background-blend-mode: multiply;
-    background-color: $primary;
+    background-color: #192734;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
   }
   
