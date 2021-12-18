@@ -20,6 +20,16 @@ const MenuOverlay = props => {
         <li onClick={props.click}>
           <Link to="/#contact">Contato</Link>
         </li>
+        <li>
+          <a
+            className="navbar-link"
+            href="https://blog.felipevaldez.site" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Blog
+          </a>
+      </li>
       </ul>
     </nav>
   )
