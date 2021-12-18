@@ -118,7 +118,8 @@
     }
 
     .perfil-avatar {
-      width: 20rem;
+      display: flex;
+      justify-content: flex-end;
 
       img {
       }
