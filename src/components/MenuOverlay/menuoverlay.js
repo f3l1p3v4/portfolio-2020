@@ -22,7 +22,6 @@ const MenuOverlay = props => {
         </li>
         <li>
           <a
-            className="navbar-link"
             href="https://blog.felipevaldez.site" 
             target="_blank" 
             rel="noopener noreferrer"
