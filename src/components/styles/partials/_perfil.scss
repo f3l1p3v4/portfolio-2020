@@ -7,7 +7,6 @@
   background-color: $primary;
 
   @include mq(480) {
-    background-image: url("../../images/texturePhone.png");
       height: auto;
   }
 
