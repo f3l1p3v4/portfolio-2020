@@ -20,6 +20,16 @@ class Header extends Component {
               <li>
                 <Link to="/#contact">Contato</Link>
               </li>
+              <li>
+                <a
+                  className="navbar-link"
+                  href="https://blog.felipevaldez.site" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Blog
+                </a>
+            </li>
             </ul>
           </div>
           <div>
