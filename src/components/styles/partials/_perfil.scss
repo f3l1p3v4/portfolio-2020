@@ -121,10 +121,6 @@
       width: 20rem;
 
       img {
-        border-radius: 80%;
-        padding: 8px;
-        border: 10px solid #444;
-        box-shadow: 10px 5px 5px black;
       }
 
       @include mq(1140) {
