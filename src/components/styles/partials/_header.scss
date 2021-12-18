@@ -33,20 +33,23 @@
         li {
           display: flex;
           align-items: center;
-          // height: 60px;
           padding: 0 0.9rem;
           margin: 0;
 
           a {
+            transition: 0.5s;
             text-decoration: none;
             cursor: pointer;
             color: $text;
-            transition: 0.5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            font-size: 0.8rem;
+          }
 
             &:before {
               content: "";
               position: absolute;
-              top: 1rem;
+              top: 0.8rem;
               display: block;
               width: 0%;
               border-top: 3px solid $highlight;
