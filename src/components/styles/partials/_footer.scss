@@ -22,8 +22,9 @@ footer {
         color: $text;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
-        display: inline-block;
-        padding: 20px 10px;
+        display: inherit;
+        padding: 10px;
+        border-radius: 4px;
         &:hover {
           transform: scale(1.1);
         }
