@@ -14,7 +14,7 @@ class Header extends Component {
                   <img src="https://blog.felipevaldez.site/static/f8e248d75450d6d4e10a9830ef6441b8/9694d/profile.webp" alt="Logo DevLoad" className="logo" />
                 </a>
               </div>
-              <p>Felipe Valdez <span>BLOG</span></p>
+              <p>Felipe Valdez <span>PORTFOLIO</span></p>
            </div>
           <div className="spacer" />
           <div className="navbar-menu">
