@@ -14,6 +14,12 @@
     max-width: 1200px;
     margin: 0 auto;
     
+    .content-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
     .logo-main {
       display: flex;
       align-items: center;
@@ -23,9 +29,8 @@
     }
 
     .logo {
-      width: 140px;
+      width: 50px;
       border-radius: 80%;
-      padding: 5px 20px;
     }
     
     p {
