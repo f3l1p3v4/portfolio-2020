@@ -9,7 +9,7 @@ class Header extends Component {
       <Headroom calcHeightOnResize disableInlineStyles>
         <nav className="navbar">
             <div>
-              <div>
+              <div className="content-logo">
                 <a href="/" className="logo-main">
                   <img src="https://blog.felipevaldez.site/static/f8e248d75450d6d4e10a9830ef6441b8/9694d/profile.webp" alt="Logo DevLoad" className="logo" />
                 </a>
