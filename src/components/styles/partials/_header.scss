@@ -44,7 +44,7 @@
       
        span {
         font-size: 0.8rem;
-        color: #ffffff;
+        color: $primary;
         background: $highlight;;
         padding: 0.1rem 0.5rem;
         margin-left: 10px;
@@ -122,7 +122,7 @@
             
             &:hover {
               color: $highlight;
-              background: $text;
+              background: $primary;
             }
           }
           }
