@@ -1,12 +1,12 @@
 import React from "react"
 
-import { FaCode } from "react-icons/fa"
+import Me from "../images/me.png";
 
 const About = () => (
   <section id="about">
     <div className="about-container">
       <div className="coder-img">
-        <FaCode className="img" />
+         <img src={Me} alt="Eu" className="img"/>
       </div>
       <div className="profile">
         <h1>Olá,</h1>
