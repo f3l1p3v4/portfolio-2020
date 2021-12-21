@@ -39,7 +39,7 @@ module.exports = {
         background_color: `#444444`,
         theme_color: `#444444`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/icon-main.png`,
       },
     },
     `gatsby-plugin-sass`,
