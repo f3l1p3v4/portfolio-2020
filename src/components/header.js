@@ -20,13 +20,13 @@ class Header extends Component {
           <div className="navbar-menu">
             <ul>
               <li>
-                <Link to="/#about">Sobre</Link>
+                <Link className="navbar-route" to="/#about">Sobre</Link>
               </li>
               <li>
-                <Link to="/#projects">Projetos</Link>
+                <Link className="navbar-route" to="/#projects">Projetos</Link>
               </li>
               <li>
-                <Link to="/#contact">Contato</Link>
+                <Link className="navbar-route" to="/#contact">Contato</Link>
               </li>
               <li>
                 <a
