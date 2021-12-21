@@ -5,7 +5,6 @@
     align-items: center;
     height: 100vh;
     background-blend-mode: color-dodge;
-    background-image: url("../../images/texture.png");
     background-position: center;
     background-size: cover;
     background-color: #0b0b0b;
@@ -54,11 +53,11 @@
           text-decoration: none;
           font-size: 3em;
           cursor: pointer;
-          color: #dfe0d4;
+          color: #ffffff;
           transition: 0.5s;
   
           &:hover {
-            color: #04dc3e;
+            color: $highlight;
           }
         }
       }
