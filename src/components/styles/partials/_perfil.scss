@@ -21,6 +21,7 @@
       flex-direction: column-reverse;
       justify-content: center;
       text-align: center;
+      margin: 0 20px;
     }
 
     @media only screen and (max-width: 900px) and (orientation: landscape) {
@@ -45,7 +46,8 @@
 
     p {
       font-size: 2.2em;
-      margin-bottom: 0.2em;
+      margin-bottom: .2em;
+      line-height: 1.4;
     }
 
     @media only screen and (max-width: 900px) and (orientation: landscape) {
@@ -61,6 +63,7 @@
       @include mq(480) {
         font-size: 3em;
         margin-bottom: 0;
+        line-height: 1.2;
       }
 
       @include mq(320) {
@@ -130,7 +133,7 @@
 
       @include mq(480) {
         margin-top: 100px;
-        width: 14rem;
+        margin-left: 0;
       }
     }
   }
