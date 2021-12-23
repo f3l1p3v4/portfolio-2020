@@ -14,28 +14,9 @@
     max-width: 1200px;
     margin: 0 auto;
     
-    .content-logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .logo-main {
-      display: flex;
-      align-items: center;
-      padding-right: 10px;
-      text-decoration: none;
-      color: var(--_color_0);
-    }
-
-    .logo {
-      width: 45px;
-      border-radius: 80%;
-    }
-    
     p {
       width: 100%;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: 700;
       color: #ffffff;
       margin: 0rem auto;
