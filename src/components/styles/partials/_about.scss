@@ -71,7 +71,7 @@
       line-height: 1.3em;
 
       @include mq(768) {
-        font-size: 4em;
+        font-size: 6em;
       }
     }
 
@@ -83,7 +83,7 @@
       text-align: left;
 
       @include mq(768) {
-        font-size: 1.3em;
+        font-size: 1.6em;
       }
 
     }

@@ -1,12 +1,11 @@
 import React from "react"
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa"
-import Avatar from "../images/avatar.png";
 
 const Perfil = () => (
   <section id="perfil">
     <div className="perfil-container">
       <div className="perfil-text">
-        <h1>Soluções Web</h1>
+        <h1>Front end</h1>
         <p>Ideias ganhando vida!</p>
         <div className="perfil-social">
           <a
@@ -31,9 +30,6 @@ const Perfil = () => (
             <FaInstagram />
           </a>
         </div>
-      </div>
-      <div className="perfil-avatar">
-        <img src={Avatar} alt="Avatar" />
       </div>
     </div>
   </section>

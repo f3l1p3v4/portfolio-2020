@@ -14,22 +14,14 @@
     max-width: 1200px;
     margin: 0 auto;
     
-    p {
-      width: 100%;
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: #ffffff;
-      margin: 0rem auto;
+    .content-logo {
       display: flex;
       align-items: center;
-      
-       span {
-        font-size: 0.8rem;
-        color: $primary;
-        background: $highlight;;
-        padding: 0.1rem 0.5rem;
-        margin-left: 10px;
-        border-radius: 4px;
+      padding-right: 10px;
+
+      img {
+        width: 140px;
+        padding: 5px 20px;
       }
     }
     

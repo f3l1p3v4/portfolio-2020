@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React, { Component } from "react";
 import Headroom from "react-headroom";
 import DrawerToggleButton from "./MenuOverlay/Drawertogglebutton";
+import logo from '../images/me.png';
 
 class Header extends Component {
   render() {
@@ -9,7 +10,7 @@ class Header extends Component {
       <Headroom calcHeightOnResize disableInlineStyles>
         <nav className="navbar">
             <div className="content-logo">
-              <p>Felipe Valdez <span>PORTFOLIO</span></p>
+              <img src={logo} alt="Logo DevLoad"></img>
            </div>
           <div className="spacer" />
           <div className="navbar-menu">
