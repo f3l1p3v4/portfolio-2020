@@ -11,6 +11,7 @@
     position: relative;
     transform: translateY(0);
     @include headroom-trans;
+    background-color: #161b22;
   }
   .headroom--scrolled {
     @include headroom-trans;

@@ -19,7 +19,7 @@
     @include mq(768) {
       flex-direction: column-reverse;
       justify-content: center;
-      text-align: center;
+      text-align: left;
       margin: 0 20px;
     }
 
@@ -68,7 +68,7 @@
 
       @include mq(768) {
         max-width: 500px;
-        justify-content: center;
+        justify-content: left;
         text-align: center;
       }
 
