@@ -9,7 +9,7 @@
     margin: 50px auto;
 
     @include mq(1024) {
-      flex-direction: column;
+      flex-direction: column-reverse;
       justify-content: center;
       padding: 0 50px;
       margin: 0 auto;
@@ -24,10 +24,6 @@
     width: 50%;
     padding: 30px;
     text-align: center;
-
-    @include mq(1024) {
-      display: none;
-    }
 
     @include mq(768) {
       width: 100%;
