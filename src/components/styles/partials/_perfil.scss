@@ -4,7 +4,7 @@
   background-color: #0d1117;
   background-size: cover;
   //background-image: linear-gradient(#000,rgba(0,0,0,.6),rgba(0,0,0,.6),#000),url(images/photo-main.jpg);
-  background-image: linear-gradient(#0d1117,rgba(0,0,0,.6),rgba(0,0,0,.6),#0d1117),url(https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-image: linear-gradient(#0d1117,rgba(0,0,0,.6),rgba(0,0,0,.6),#0d1117),url(https://images.unsplash.com/photo-1563118490-a6fbac646b50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
   background-color: $primary;
 
   .perfil-container {
@@ -40,7 +40,6 @@
       font-size: 6em;
       line-height: 90px;
       margin-bottom: 12px;
-      color: #FFFFFF;
       
         @include mq(480) {
           font-size: 5em;
