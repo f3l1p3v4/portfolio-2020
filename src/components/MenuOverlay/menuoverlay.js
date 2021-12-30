@@ -23,7 +23,6 @@ const MenuOverlay = props => {
         <li>
           <a
             href="https://blog.felipevaldez.site" 
-            target="_blank" 
             rel="noopener noreferrer"
           >
             Blog
