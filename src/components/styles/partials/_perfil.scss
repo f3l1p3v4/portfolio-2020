@@ -30,7 +30,8 @@
 
   .perfil-text {
     width: 100%;
-    margin: 0 100px;
+    max-width: 1000px;
+    margin: 0 auto;
 
     @include mq(480) {
       margin: 0;

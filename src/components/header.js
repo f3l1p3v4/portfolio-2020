@@ -28,7 +28,6 @@ class Header extends Component {
                 <a
                   className="navbar-link"
                   href="https://blog.felipevaldez.site" 
-                  target="_blank" 
                   rel="noopener noreferrer"
                 >
                   Blog
