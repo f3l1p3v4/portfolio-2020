@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import React, { Component } from "react";
 import Headroom from "react-headroom";
 import DrawerToggleButton from "./MenuOverlay/Drawertogglebutton";
-import logo from '../images/icon-main.png';
+import logo from '../images/logo.png';
 
 class Header extends Component {
   render() {
