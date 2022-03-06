@@ -43,20 +43,20 @@ const Bilhetagem = () => (
             <div className="project-image">
               <Img
                 fluid={
-                  data.allProjectsJson.edges[4].node.image.childImageSharp.fluid
+                  data.allProjectsJson.edges[3].node.image.childImageSharp.fluid
                 }
                 style={{ maxHeight: 450 }}
               />
             </div>
             <div className="projects-nav">
               <div className="projects-nav-link">
-                <Link to="/projects/bilhetagem">
+                <Link to="/projects/portfolio">
                   <IoIosArrowDropleftCircle /> Projeto anterior
                 </Link>
               </div>
               <div className="spacer" />
               <div className="projects-nav-link right">
-                <Link to="/#porjects">
+                <Link to="/">
                   Voltar ao portfólio <IoIosArrowDroprightCircle />
                 </Link>
               </div>
